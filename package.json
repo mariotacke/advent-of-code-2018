@@ -1,0 +1,16 @@
+{
+  "name": "advent-of-code-2018",
+  "version": "1.0.0",
+  "description": "Advent of Code 2018",
+  "main": "index.js",
+  "author": "Mario Tacke <tacke.mario@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "test": "mocha day-*/**/test.js",
+    "lint": "eslint ."
+  },
+  "devDependencies": {
+    "eslint": "^5.9.0",
+    "mocha": "^5.2.0"
+  }
+}
