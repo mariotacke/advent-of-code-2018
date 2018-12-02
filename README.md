@@ -12,6 +12,7 @@ Collect stars by solving puzzles. Two puzzles will be made available on each day
 ## Days
 
 - [Day 1: Chronal Calibration](day-01-chronal-calibration/)
+- [Day 2: Inventory Management System](day-02-inventory-management-system/)
 
 ## Running Tests
 
