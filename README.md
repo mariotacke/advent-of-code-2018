@@ -15,6 +15,7 @@ Collect stars by solving puzzles. Two puzzles will be made available on each day
 - [Day 2: Inventory Management System](day-02-inventory-management-system/)
 - [Day 3: No Matter How You Slice It](day-03-no-matter-how-you-slice-it/)
 - [Day 4: Repose Record](day-04-repose-record/)
+- [Day 5: Alchemical Reduction](day-05-alchemical-reduction/)
 
 ## Running Tests
 
