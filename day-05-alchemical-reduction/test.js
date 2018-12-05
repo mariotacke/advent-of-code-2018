@@ -1,6 +1,7 @@
 const assert = require('assert');
 
 const polymer = require('./polymer');
+const polymer2 = require('./polymer2');
 
 describe('Day 5: Alchemical Reduction', () => {
   it('should calculate polymer from aA', () => {
@@ -21,5 +22,11 @@ describe('Day 5: Alchemical Reduction', () => {
 
   it('should calculate polymer from dabAcCaCBAcCcaDA', () => {
     assert.strictEqual(polymer('dabAcCaCBAcCcaDA'), 10);
+  });
+
+  describe('Part Two', () => {
+    it('should calculate polymer from dabAcCaCBAcCcaDA', () => {
+      assert.strictEqual(polymer2('dabAcCaCBAcCcaDA'), 4);
+    });
   });
 });
