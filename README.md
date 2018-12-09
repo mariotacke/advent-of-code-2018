@@ -1,5 +1,7 @@
 # Advent of Code 2018 - My Solutions
-[![Build Status](https://travis-ci.org/mariotacke/advent-of-code-2018.svg?branch=master)](https://travis-ci.org/mariotacke/advent-of-code-2018) [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/mariotacke/advent-of-code-2018/master/LICENSE)
+[![Build Status](https://travis-ci.org/mariotacke/advent-of-code-2018.svg?branch=master)](https://travis-ci.org/mariotacke/advent-of-code-2018)
+[![Dependency Status](https://img.shields.io/david/mariotacke/advent-of-code-2018.svg)](https://david-dm.org/mariotacke/advent-of-code-2018)
+[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/mariotacke/advent-of-code-2018/master/LICENSE)
 
 "We've detected some temporal anomalies," one of Santa's Elves at the Temporal Anomaly Research and Detection Instrument Station tells you. She sounded pretty worried when she called you down here. "At 500-year intervals into the past, someone has been changing Santa's history!"
 
@@ -23,6 +25,11 @@ Collect stars by solving puzzles. Two puzzles will be made available on each day
 ## Running Tests
 
 Each day contains its own set of tests. To run them type `npm test`.
+
+## Previous Years
+- [2017](https://github.com/mariotacke/advent-of-code-2017)
+- [2016](https://github.com/mariotacke/advent-of-code-2016)
+- [2015](https://github.com/mariotacke/advent-of-code-2015)
 
 ## Visit
 - http://adventofcode.com/2018
