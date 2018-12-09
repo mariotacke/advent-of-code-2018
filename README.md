@@ -18,6 +18,7 @@ Collect stars by solving puzzles. Two puzzles will be made available on each day
 - [Day 5: Alchemical Reduction](day-05-alchemical-reduction/)
 - [Day 6: Chronal Coordinates](day-06-chronal-coordinates/)
 - [Day 7: The Sum of Its Parts](day-07-the-sum-of-its-parts/)
+- [Day 8: Memory Maneuver](day-08-memory-maneuver/)
 
 ## Running Tests
 
