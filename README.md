@@ -22,6 +22,7 @@ Collect stars by solving puzzles. Two puzzles will be made available on each day
 - [Day 7: The Sum of Its Parts](day-07-the-sum-of-its-parts/)
 - [Day 8: Memory Maneuver](day-08-memory-maneuver/)
 - [Day 9: Marble Mania](day-09-marble-mania/)
+- [Day 10: The Stars Align](day-10-the-stars-align/)
 
 ## Running Tests
 
