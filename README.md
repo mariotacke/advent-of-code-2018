@@ -23,6 +23,7 @@ Collect stars by solving puzzles. Two puzzles will be made available on each day
 - [Day 8: Memory Maneuver](day-08-memory-maneuver/)
 - [Day 9: Marble Mania](day-09-marble-mania/)
 - [Day 10: The Stars Align](day-10-the-stars-align/)
+- [Day 11: Chronal Charge](day-11-chronal-charge/)
 
 ## Running Tests
 
