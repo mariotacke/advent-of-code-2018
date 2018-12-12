@@ -24,6 +24,7 @@ Collect stars by solving puzzles. Two puzzles will be made available on each day
 - [Day 9: Marble Mania](day-09-marble-mania/)
 - [Day 10: The Stars Align](day-10-the-stars-align/)
 - [Day 11: Chronal Charge](day-11-chronal-charge/)
+- [Day 12: Subterranean Sustainability](day-12-subterranean-sustainability/)
 
 ## Running Tests
 
