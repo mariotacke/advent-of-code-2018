@@ -25,6 +25,7 @@ Collect stars by solving puzzles. Two puzzles will be made available on each day
 - [Day 10: The Stars Align](day-10-the-stars-align/)
 - [Day 11: Chronal Charge](day-11-chronal-charge/)
 - [Day 12: Subterranean Sustainability](day-12-subterranean-sustainability/)
+- [Day 13: Mine Cart Madness](day-13-mine-cart-madness/)
 
 ## Running Tests
 
