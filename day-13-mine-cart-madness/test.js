@@ -1,6 +1,7 @@
 const assert = require('assert');
 
 const mine = require('./mine');
+const mine2 = require('./mine2');
 
 const displayHelper = (input) => {
   const padding = input
@@ -31,5 +32,21 @@ describe('Day 13: Mine Cart Madness', () => {
     `);
 
     assert.strictEqual(mine(tracks), '7,3');
+  });
+
+  describe('Part Two', () => {
+    it('should determine the location of the last cart', () => {
+      const tracks = displayHelper(String.raw`
+        />-<\
+        |   |
+        | /<+-\
+        | | | v
+        \>+</ |
+          |   ^
+          \<->/
+      `);
+
+      assert.strictEqual(mine2(tracks), '6,4');
+    });
   });
 });
