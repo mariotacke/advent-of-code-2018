@@ -26,6 +26,7 @@ Collect stars by solving puzzles. Two puzzles will be made available on each day
 - [Day 11: Chronal Charge](day-11-chronal-charge/)
 - [Day 12: Subterranean Sustainability](day-12-subterranean-sustainability/)
 - [Day 13: Mine Cart Madness](day-13-mine-cart-madness/)
+- [Day 14: Chocolate Charts](day-14-chocolate-charts/)
 
 ## Running Tests
 
