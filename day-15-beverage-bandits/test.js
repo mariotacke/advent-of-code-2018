@@ -1,6 +1,7 @@
 const assert = require('assert');
 
 const combat = require('./combat');
+const combat2 = require('./combat2');
 
 const displayHelper = (expectedOutput) => expectedOutput.replace(/^ +/gm, '');
 
@@ -83,5 +84,74 @@ describe('Day 15: Beverage Bandits', () => {
        #########`);
 
     assert.strictEqual(combat(input), 18740);
+  });
+
+  describe('Part Two', () => {
+    it('should simulate powered up combat 1', () => {
+      const input = displayHelper(
+        `#######
+         #.G...#
+         #...EG#
+         #.#.#G#
+         #..G#E#
+         #.....#
+         #######`);
+
+      assert.strictEqual(combat2(input), 4988);
+    });
+
+    it('should simulate powered up combat 2', () => {
+      const input = displayHelper(
+        `#######
+         #E..EG#
+         #.#G.E#
+         #E.##E#
+         #G..#.#
+         #..E#.#
+         #######`);
+
+      assert.strictEqual(combat2(input), 31284);
+    });
+
+    it('should simulate powered up combat 3', () => {
+      const input = displayHelper(
+        `#######
+         #E.G#.#
+         #.#G..#
+         #G.#.G#
+         #G..#.#
+         #...E.#
+         #######`);
+
+      assert.strictEqual(combat2(input), 3478);
+    });
+
+    it('should simulate powered up combat 4', () => {
+      const input = displayHelper(
+        `#######
+         #.E...#
+         #.#..G#
+         #.###.#
+         #E#G#G#
+         #...#G#
+         #######`);
+
+      assert.strictEqual(combat2(input), 6474);
+    });
+
+    it('should simulate powered up combat 5', () => {
+      const input = displayHelper(
+        `#########
+         #G......#
+         #.E.#...#
+         #..##..G#
+         #...##..#
+         #...#...#
+         #.G...G.#
+         #.....G.#
+         #########`);
+
+      assert.strictEqual(combat2(input), 1140);
+    });
   });
 });
