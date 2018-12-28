@@ -28,6 +28,7 @@ Collect stars by solving puzzles. Two puzzles will be made available on each day
 - [Day 13: Mine Cart Madness](day-13-mine-cart-madness/)
 - [Day 14: Chocolate Charts](day-14-chocolate-charts/)
 - [Day 15: Beverage Bandits](day-15-beverage-bandits/)
+- [Day 16: Chronal Classification](day-16-chronal-classification/)
 
 ## Running Tests
 
