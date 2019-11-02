@@ -1,5 +1,5 @@
 # Advent of Code 2018 - My Solutions
-[![Build Status](https://travis-ci.org/mariotacke/advent-of-code-2018.svg?branch=master)](https://travis-ci.org/mariotacke/advent-of-code-2018)
+[![Build Status](https://github.com/mariotacke/advent-of-code-2018/workflows/build/badge.svg)](https://github.com/mariotacke/advent-of-code-2018/actions)
 [![Dependency Status](https://img.shields.io/david/mariotacke/advent-of-code-2018.svg)](https://david-dm.org/mariotacke/advent-of-code-2018)
 [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/mariotacke/advent-of-code-2018/master/LICENSE)
 
