@@ -31,6 +31,7 @@ Collect stars by solving puzzles. Two puzzles will be made available on each day
 - [Day 15: Beverage Bandits](day-15-beverage-bandits/)
 - [Day 16: Chronal Classification](day-16-chronal-classification/)
 - [Day 18: Settlers of The North Pole](day-18-settlers-of-the-north-pole/)
+- [Day 25: Four-Dimensional Adventure](day-25-four-dimensional-adventure/)
 
 ## Running Tests
 
