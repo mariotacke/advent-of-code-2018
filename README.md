@@ -1,7 +1,7 @@
 # Advent of Code 2018 - My Solutions
 [![Build Status](https://github.com/mariotacke/advent-of-code-2018/workflows/build/badge.svg)](https://github.com/mariotacke/advent-of-code-2018/actions)
 [![Completion Status](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/mariotacke/advent-of-code-2018/master/.github/badges/completion.json)](https://github.com/mariotacke/advent-of-code-2018)
-[![Dependency Status](https://img.shields.io/david/mariotacke/advent-of-code-2018.svg)](https://david-dm.org/mariotacke/advent-of-code-2018)
+![Libraries.io dependency status for GitHub repo](https://img.shields.io/librariesio/github/mariotacke/advent-of-code-2018)
 [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/mariotacke/advent-of-code-2018/master/LICENSE)
 
 "We've detected some temporal anomalies," one of Santa's Elves at the Temporal Anomaly Research and Detection Instrument Station tells you. She sounded pretty worried when she called you down here. "At 500-year intervals into the past, someone has been changing Santa's history!"
