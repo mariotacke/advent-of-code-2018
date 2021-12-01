@@ -34,6 +34,7 @@ Collect stars by solving puzzles. Two puzzles will be made available on each day
 - [Day 18: Settlers of The North Pole](day-18-settlers-of-the-north-pole/)
 - [Day 22: Mode Maze](day-22-mode-maze/)
 - [Day 23: Experimental Emergency Teleportation](day-23-experimental-emergency-teleportation/)
+- [Day 24: Immune System Simulator 20XX](day-24-immune-system-simulator-20xx/)
 - [Day 25: Four-Dimensional Adventure](day-25-four-dimensional-adventure/)
 
 ## Running Tests
