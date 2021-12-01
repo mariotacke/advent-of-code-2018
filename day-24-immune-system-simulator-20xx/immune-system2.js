@@ -145,9 +145,7 @@ const attackingPhase = (plannedAttacks) => {
   }
 };
 
-module.exports = (input) => {
-  const armies = parseArmyInformation(input);
-
+const simulate = (armies) => {
   while (!armies[0].isDead && !armies[1].isDead) {
     printArmyStatus(armies[0]);
     printArmyStatus(armies[1]);
@@ -160,6 +158,11 @@ module.exports = (input) => {
       ...targetSelectionPhase(armies[0], armies[1]),
     ];
 
+    // halt if opposing groups are immune to each other
+    if (!plannedAttacks.length) {
+      return [false, 0];
+    }
+
     print('');
 
     // attacking phase
@@ -171,7 +174,38 @@ module.exports = (input) => {
   printArmyStatus(armies[0]);
   printArmyStatus(armies[1]);
 
-  return armies
-    .find((army) => !army.isDead).groups
-    .reduce((units, group) => units + group.units, 0);
+  return [
+    !armies[0].isDead,
+    armies[0].groups.reduce((units, group) => units + group.units, 0),
+  ];
+};
+
+const boost = (army, amount) => {
+  army.groups.forEach((group) => group.attackDamage += amount);
+};
+
+module.exports = (input) => {
+  let appliedBoost = 1;
+  let minimumBoost = appliedBoost;
+  let maximumBoost = Infinity;
+
+  while (appliedBoost <= maximumBoost) {
+    const armies = parseArmyInformation(input);
+
+    boost(armies[0], appliedBoost);
+
+    const [success, immuneSystemUnitsLeft] = simulate(armies);
+
+    if (!success) {
+      minimumBoost = appliedBoost;
+      appliedBoost = maximumBoost === Infinity
+        ? appliedBoost *= 2
+        : Math.floor((maximumBoost - minimumBoost) / 2 + 1) + minimumBoost;
+    } else if (appliedBoost < maximumBoost) {
+      maximumBoost = appliedBoost;
+      appliedBoost = Math.floor((maximumBoost - minimumBoost) / 2 + 1) + minimumBoost;
+    } else {
+      return immuneSystemUnitsLeft;
+    }
+  }
 };
