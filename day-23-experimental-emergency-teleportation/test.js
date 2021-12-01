@@ -19,7 +19,7 @@ describe('Day 23: Experimental Emergency Teleportation', () => {
     assert.strictEqual(teleport(nanobots), 7);
   });
 
-  describe('Part Two', () => {
+  xdescribe('Part Two', () => {
     it('should determine shortest distance between points and 0,0,0', () => {
       const nanobots =
         `pos=<10,12,12>, r=2
